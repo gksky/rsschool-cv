@@ -58,4 +58,4 @@ setTenantByUNP(unp) {
 
 # Experience
 I am doing my own personal project based on Nuxt.js and MySQL to make easy my job.
-Also, I made simple site using HTML, CSS, PHP and MySQL: [Аренда спецтехиники Беларусь](https://арендаспецтехники.бел/)
+Also, I made simple site using HTML, CSS, PHP and MySQL: [Аренда спецтехники Беларусь](https://арендаспецтехники.бел/)
