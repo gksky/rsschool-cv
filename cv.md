@@ -30,7 +30,7 @@ pool.query("UPDATE ttnregistry SET `dt`='" + req.body.date + "', `from`='" + req
         if(err) return console.log(err);
       });
     });
-  eqjson = eqjson.slice(0, eqjson.length-1)
+  eqjson = eqjson.slice(0, eqjson.length-1);
   pool.query("UPDATE ttnregistry SET equipment='[" + eqjson + "]' WHERE `id`=" + findid[0].id, function(err, data) {
     if(err) return console.log(err);
   });
