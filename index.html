@@ -51,7 +51,7 @@ setTenantByUNP(unp) {
     this.tenant = this.toList[index];
     this.$axios.get('/contract?company=' + this.landlord.id + '&' + 'partner=' + this.tenant.unp).then(res => {
       this.contractList = res.data;
-      for (let i = 0; i < this.contractList.length; i++) {
+      for (let i = 0; i &lt; this.contractList.length; i++) {
         if (this.contractList[i].typeofcon === 0) {
           this.contractList[i].fullname = this.contractList[i].name.toLowerCase().replace(/договор/i, 'Договору') + ' №' + this.contractList[i].number + ' от ' + this.contractList[i].dateofcon.substr(0, 10).split('-').reverse().join('.');
         } else {
